@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 564de7c2d2a810042a83a7dc2df23971
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Window Manager/Window Manager.prefab
+  uploadId: 669851

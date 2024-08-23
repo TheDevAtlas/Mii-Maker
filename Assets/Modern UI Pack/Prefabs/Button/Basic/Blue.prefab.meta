@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0f01a18a54c6cd440a6bef85c0a4ac31
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Basic/Blue.prefab
+  uploadId: 669851

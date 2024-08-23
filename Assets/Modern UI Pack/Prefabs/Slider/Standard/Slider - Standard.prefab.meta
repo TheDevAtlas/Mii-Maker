@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 532be6a4fe92da84781b0746078bbd33
+timeCreated: 1493634592
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Slider/Standard/Slider - Standard.prefab
+  uploadId: 669851

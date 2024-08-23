@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6e5b520bc74672f41bf648e578bb78a4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Other/Canvas.prefab
+  uploadId: 669851

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 206739ec74e396e439ed908b0005e631
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Horizontal Selector/Horizontal Selector.prefab
+  uploadId: 669851

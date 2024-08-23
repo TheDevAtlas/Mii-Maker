@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f99269924fc18d449a9a2caaf53dc5fe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Rounded/Standard.prefab
+  uploadId: 669851

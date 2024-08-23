@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b142da328c0aaed469ada5e8a4189951
+timeCreated: 1508576035
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Progress Bar/PB - Radial Filled Vertical.prefab
+  uploadId: 669851

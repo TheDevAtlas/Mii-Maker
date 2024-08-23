@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e66e162856f6b884eb406acc50688f28
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Animated Icon/Window.prefab
+  uploadId: 669851

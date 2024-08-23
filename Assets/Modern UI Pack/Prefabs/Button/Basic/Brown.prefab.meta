@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d4220af058685be4cbeb9e5b6eca4f63
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Basic/Brown.prefab
+  uploadId: 669851

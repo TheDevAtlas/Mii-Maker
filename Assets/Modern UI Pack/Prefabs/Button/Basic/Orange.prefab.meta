@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a76e23e6dd72a8f4dbdefc46710338e0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Basic/Orange.prefab
+  uploadId: 669851

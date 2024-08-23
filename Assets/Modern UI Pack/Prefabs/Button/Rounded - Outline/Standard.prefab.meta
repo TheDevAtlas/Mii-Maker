@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 920bb8f3d73a07f4199233ebbfe66dca
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline/Standard.prefab
+  uploadId: 669851

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 656e81c1467148042962149a5f168b50
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Movable Window/Movable Window.prefab
+  uploadId: 669851

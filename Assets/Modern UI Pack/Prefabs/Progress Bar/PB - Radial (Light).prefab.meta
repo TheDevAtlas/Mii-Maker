@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6cc43bc22434dc8449b4d23f62e02542
+timeCreated: 1506265595
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Progress Bar/PB - Radial (Light).prefab
+  uploadId: 669851

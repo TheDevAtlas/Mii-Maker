@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 82f88af774792794bbcc4bed53218fa5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Rounded/White.prefab
+  uploadId: 669851

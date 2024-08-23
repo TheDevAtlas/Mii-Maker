@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c5e2dc3d9dda6b44189132bc2fbee2b3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Tooltip/Tooltip.prefab
+  uploadId: 669851

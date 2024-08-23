@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8cf74ef4b41c8274e9ea7b32b5f45d11
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Slider/Standard/Slider - Standard (Value).prefab
+  uploadId: 669851

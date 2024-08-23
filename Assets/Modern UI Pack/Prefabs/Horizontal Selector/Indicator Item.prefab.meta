@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d761d163a9f3c244a97cdaa6e14fafc1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Horizontal Selector/Indicator Item.prefab
+  uploadId: 669851

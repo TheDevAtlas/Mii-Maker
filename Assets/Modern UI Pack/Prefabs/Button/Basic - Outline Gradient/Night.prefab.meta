@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 989de792f9db6b745914b29f20c9008a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient/Night.prefab
+  uploadId: 669851

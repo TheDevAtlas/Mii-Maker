@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c83b828b4cbce32478ca503b50614a87
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient/Blue.prefab
+  uploadId: 669851

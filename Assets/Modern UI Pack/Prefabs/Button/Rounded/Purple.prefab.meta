@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ae3d5e11a2280b04ba650092be08748a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Rounded/Purple.prefab
+  uploadId: 669851

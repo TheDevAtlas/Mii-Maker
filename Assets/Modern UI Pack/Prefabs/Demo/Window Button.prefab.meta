@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b0d03a2cffb1a8b4ab6583d9079059b0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Demo/Window Button.prefab
+  uploadId: 669851

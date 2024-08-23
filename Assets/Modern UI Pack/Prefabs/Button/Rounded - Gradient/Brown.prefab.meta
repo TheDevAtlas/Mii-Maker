@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cfedd60fd4413fe40a4ee91b342a7105
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/Brown.prefab
+  uploadId: 669851

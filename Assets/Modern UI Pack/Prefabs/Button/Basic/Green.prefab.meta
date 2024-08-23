@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 64325a7db649f3a42be36398b9d061bd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Basic/Green.prefab
+  uploadId: 669851

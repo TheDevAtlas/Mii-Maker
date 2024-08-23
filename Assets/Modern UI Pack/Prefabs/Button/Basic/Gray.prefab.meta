@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3dbd4bc71acbb1145b6e80827b858127
+timeCreated: 1493570666
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Basic/Gray.prefab
+  uploadId: 669851

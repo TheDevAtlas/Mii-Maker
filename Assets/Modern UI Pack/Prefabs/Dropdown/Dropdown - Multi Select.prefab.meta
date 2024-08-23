@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8824483cce8b8314f83f933a59d1483c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Dropdown/Dropdown - Multi Select.prefab
+  uploadId: 669851

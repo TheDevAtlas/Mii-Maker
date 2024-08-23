@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 61c756c874f5e6f40bc3573de6cb5656
+timeCreated: 1493642726
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Switch/Switch - Standard.prefab
+  uploadId: 669851

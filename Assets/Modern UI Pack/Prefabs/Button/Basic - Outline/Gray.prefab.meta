@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8f569e837df7b6b4eb1a443ba50fff62
+timeCreated: 1493570670
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline/Gray.prefab
+  uploadId: 669851

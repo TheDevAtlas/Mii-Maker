@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fadada887bc7b3946bff1496ea5561c3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Button/Rounded/Green.prefab
+  uploadId: 669851

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c3a9b1edcaba1294980a52ac9bbd2228
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Animated Icon/Notification Bell.prefab
+  uploadId: 669851

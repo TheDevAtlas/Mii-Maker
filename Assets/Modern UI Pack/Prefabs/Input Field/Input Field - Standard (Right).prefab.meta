@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 31898d8437e54564e9fc2942279ad2d2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201717
+  packageName: Modern UI Pack
+  packageVersion: 5.5.24
+  assetPath: Assets/Modern UI Pack/Prefabs/Input Field/Input Field - Standard (Right).prefab
+  uploadId: 669851
