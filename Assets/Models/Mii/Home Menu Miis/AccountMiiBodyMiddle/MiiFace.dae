@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <created>2017-08-09T05:51:20Z</created>
+    <modified>2017-08-09T05:51:20Z</modified>
+  </asset>
+  <library_images>
+    <image id="Image">
+      <init_from>MiiFace.png</init_from>
+    </image>
+    <image id="Image1">
+      <init_from>MiiFace.png</init_from>
+    </image>
+    <image id="Image2">
+      <init_from>MiiFace.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="VisualMaterial" name="mt_faceline">
+      <instance_effect url="#Effect"/>
+      <extra>
+        <technique profile="FCOLLADA">
+          <user_properties>mt_faceline</user_properties>
+        </technique>
+      </extra>
+    </material>
+    <material id="VisualMaterial1" name="mt_hair">
+      <instance_effect url="#Effect1"/>
+      <extra>
+        <technique profile="FCOLLADA">
+          <user_properties>mt_hair</user_properties>
+        </technique>
+      </extra>
+    </material>
+    <material id="VisualMaterial2" name="mt_mask">
+      <instance_effect url="#Effect2"/>
+      <extra>
+        <technique profile="FCOLLADA">
+          <user_properties>mt_mask</user_properties>
+        </technique>
+      </extra>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect" name="MiiFace_png">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>Image</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord=""/>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>0</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1.55</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0</float>
+              </spec_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="FCOLLADA">
+          <user_properties>MiiFace.png</user_properties>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Effect1" name="MiiFace_png">
+      <profile_COMMON>
+        <newparam sid="Image1-surface">
+          <surface type="2D">
+            <init_from>Image1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image1-sampler">
+          <sampler2D>
+            <source>Image1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image1-sampler" texcoord=""/>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>0</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1.55</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0</float>
+              </spec_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="FCOLLADA">
+          <user_properties>MiiFace.png</user_properties>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Effect2" name="MiiFace_png">
+      <profile_COMMON>
+        <newparam sid="Image2-surface">
+          <surface type="2D">
+            <init_from>Image2</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image2-sampler">
+          <sampler2D>
+            <source>Image2-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image2-sampler" texcoord=""/>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>0</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1.55</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0</float>
+              </spec_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="FCOLLADA">
+          <user_properties>MiiFace.png</user_properties>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Geometry" name="Root__mt_faceline">
+      <mesh>
+        <source id="GeometrySource" name="Root__mt_facelinePos">
+          <float_array id="GeometrySource-array" count="279">1.37109 0.106506 -0.390381 0.541016 0.898926 -0.390381 0.000108 -0.499512 0 0.000274 -0.499756 0 0 -0.5 0 -0.000121 -0.499512 0 0.541016 0.898926 -0.390381 -0.000279 -0.499756 0 -0.606445 0.871582 -0.390381 -0.606445 0.871582 -0.390381 -0.000273 -0.5 0 -1.39844 0.04129 -0.390381 -1.39844 0.04129 -0.390381 -0.000108 -0.5 0 -1.37109 -1.10645 -0.390381 -1.37109 -1.10645 -0.390381 0.000121 -0.5 0 -0.541016 -1.89844 -0.390381 -0.541016 -1.89844 -0.390381 0.000279 -0.5 0 0.606445 -1.87109 -0.390381 0.606445 -1.87109 -0.390381 1.39844 -1.04102 -0.390381 1.39844 -1.04102 -0.390381 1.37109 0.106506 -0.390381 1.37109 0.106506 -0.390381 2.375 0.550293 -1.45605 0.541016 0.898926 -0.390381 2.74219 0.712891 -2.91211 0.937012 1.92285 -1.45605 1.08203 2.29688 -2.91211 1.08203 2.29688 -4.37109 2.74219 0.712891 -4.37109 2.79688 -1.58203 -2.91211 2.375 0.550293 -1.45605 -1.21289 2.24219 -4.37109 -1.21289 2.24219 -2.91211 -1.0498 1.87598 -1.45605 0.937012 1.92285 -1.45605 2.79688 -1.58203 -4.37109 2.42188 -1.43652 -1.45605 1.37109 0.106506 -0.390381 -2.79688 0.582031 -4.37109 -2.79688 0.582031 -2.91211 -2.42188 0.437256 -1.45605 -1.0498 1.87598 -1.45605 -0.606445 0.871582 -0.390381 0.541016 0.898926 -0.390381 1.39844 -1.04102 -0.390381 -2.74219 -1.71289 -4.37109 -2.74219 -1.71289 -2.91211 -2.375 -1.5498 -1.45605 -2.42188 0.437256 -1.45605 -1.39844 0.04129 -0.390381 -0.606445 0.871582 -0.390381 -1.08203 -3.29688 -4.37109 -1.08203 -3.29688 -2.91211 -0.937012 -2.92188 -1.45605 -2.375 -1.5498 -1.45605 -1.37109 -1.10645 -0.390381 -1.39844 0.04129 -0.390381 1.21289 -3.24219 -4.37109 1.21289 -3.24219 -2.91211 1.0498 -2.875 -1.45605 -0.937012 -2.92188 -1.45605 -0.541016 -1.89844 -0.390381 -1.37109 -1.10645 -0.390381 2.79688 -1.58203 -4.37109 2.79688 -1.58203 -2.91211 2.42188 -1.43652 -1.45605 1.0498 -2.875 -1.45605 0.606445 -1.87109 -0.390381 -0.541016 -1.89844 -0.390381 1.39844 -1.04102 -0.390381 0.606445 -1.87109 -0.390381 -0.375 2 -4.67969 -0.375 2 -2.25 -0.375 3 -2.25 0.375 2 -4.67969 0.375 3 -2.25 0.375 2 -2.25 0.375 3 -2.25 -0.375 3 -2.25 0.375 2 -2.25 -0.375 2 -2.25 0.375 2 -2.25 -0.375 2 -2.25 0.375 2 -4.67969 -0.375 2 -4.67969 -0.375 2 -4.67969 -0.375 3 -2.25 0.375 2 -4.67969 0.375 3 -2.25</float_array>
+          <technique_common>
+            <accessor source="#GeometrySource-array" count="93" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeometrySource1" name="Root__mt_facelineNrm">
+          <float_array id="GeometrySource1-array" count="279">0.444632 0.197832 0.873593 0.17622 0.454256 0.873269 0.045004 0.117404 0.992064 0.115441 0.050872 0.992011 0 0 1 -0.050872 0.115441 0.992011 0.17622 0.454256 0.873269 -0.117404 0.045004 0.992064 -0.197832 0.444632 0.873593 -0.197832 0.444632 0.873593 -0.115441 -0.050872 0.992011 -0.454256 0.17622 0.873269 -0.454256 0.17622 0.873269 -0.045004 -0.117404 0.992064 -0.444632 -0.197832 0.873593 -0.444632 -0.197832 0.873593 0.050872 -0.115441 0.992011 -0.17622 -0.454256 0.873269 -0.17622 -0.454256 0.873269 0.117404 -0.045004 0.992064 0.197832 -0.444632 0.873593 0.197832 -0.444632 0.873593 0.454256 -0.17622 0.873269 0.454256 -0.17622 0.873269 0.444632 0.197832 0.873593 0.444632 0.197832 0.873593 0.785258 0.34661 0.513061 0.17622 0.454256 0.873269 0.906008 0.401148 0.135021 0.309335 0.800747 0.512948 0.358181 0.923833 0.135052 0.358181 0.923833 -0.135052 0.906008 0.401148 -0.135021 0.923833 -0.358181 0.135052 0.785258 0.34661 0.513061 -0.401148 0.906008 -0.135021 -0.401148 0.906008 0.135021 -0.34661 0.785258 0.513061 0.309335 0.800747 0.512948 0.923833 -0.358181 -0.135052 0.800747 -0.309335 0.512948 0.444632 0.197832 0.873593 -0.923833 0.358181 -0.135052 -0.923833 0.358181 0.135052 -0.800747 0.309335 0.512948 -0.34661 0.785258 0.513061 -0.197832 0.444632 0.873593 0.17622 0.454256 0.873269 0.454256 -0.17622 0.873269 -0.906008 -0.401148 -0.135021 -0.906008 -0.401148 0.135021 -0.785258 -0.34661 0.513061 -0.800747 0.309335 0.512948 -0.454256 0.17622 0.873269 -0.197832 0.444632 0.873593 -0.358181 -0.923833 -0.135052 -0.358181 -0.923833 0.135052 -0.309335 -0.800747 0.512948 -0.785258 -0.34661 0.513061 -0.444632 -0.197832 0.873593 -0.454256 0.17622 0.873269 0.401148 -0.906008 -0.135021 0.401148 -0.906008 0.135021 0.34661 -0.785258 0.513061 -0.309335 -0.800747 0.512948 -0.17622 -0.454256 0.873269 -0.444632 -0.197832 0.873593 0.923833 -0.358181 -0.135052 0.923833 -0.358181 0.135052 0.800747 -0.309335 0.512948 0.34661 -0.785258 0.513061 0.197832 -0.444632 0.873593 -0.17622 -0.454256 0.873269 0.454256 -0.17622 0.873269 0.197832 -0.444632 0.873593 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.925204 -0.379471 0 0.925204 -0.379471 0 0.925204 -0.379471 0 0.925204 -0.379471</float_array>
+          <technique_common>
+            <accessor source="#GeometrySource1-array" count="93" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeometrySource2" name="Root__mt_facelineUV">
+          <float_array id="GeometrySource2-array" count="186">0.588357 0.842161 0.564263 0.785138 0.500008 0.849989 0.500023 0.850004 0.500008 0.850004 0.500008 0.849989 0.559487 0.780926 0.499992 0.849989 0.495766 0.758038 0.502113 0.757641 0.499977 0.850004 0.434531 0.786908 0.438727 0.782147 0.499992 0.850004 0.411643 0.850629 0.411231 0.844297 0.500008 0.850019 0.440513 0.911864 0.435737 0.907683 0.500008 0.850004 0.502113 0.93518 0.497887 0.93518 0.561273 0.910674 0.565469 0.905882 0.588769 0.848539 0.578195 0.687495 0.591653 0.620081 0.567727 0.687495 0.593744 0.526406 0.563546 0.625467 0.562493 0.526406 0.562493 0.445808 0.593744 0.445808 0.624994 0.526406 0.594797 0.625467 0.531243 0.445808 0.531243 0.526406 0.532296 0.625467 0.560403 0.620081 0.624994 0.445808 0.622904 0.620081 0.598978 0.687495 0.500008 0.445808 0.500008 0.526406 0.501045 0.625467 0.529152 0.620081 0.536477 0.687495 0.546944 0.687495 0.609445 0.687495 0.468757 0.445808 0.468757 0.526406 0.469795 0.625467 0.497902 0.620081 0.505226 0.687495 0.515694 0.687495 0.437507 0.445808 0.437507 0.526406 0.438544 0.625467 0.466651 0.620081 0.473976 0.687495 0.484443 0.687495 0.406256 0.445808 0.406256 0.526406 0.407294 0.625467 0.435401 0.620081 0.442725 0.687495 0.453193 0.687495 0.375006 0.445808 0.375006 0.526406 0.376043 0.625467 0.40415 0.620081 0.41149 0.687495 0.421942 0.687495 0.38024 0.687495 0.390707 0.687495 0.125002 0.749996 0.125002 1 0.375006 1 0.874998 0.749996 0.624994 1 0.874998 1 0.624994 0 0.375006 0 0.624994 0.250004 0.375006 0.250004 0.624994 0.250004 0.375006 0.250004 0.624994 0.500008 0.375006 0.500008 0.375006 0.500008 0.375006 1 0.624994 0.500008 0.624994 1</float_array>
+          <technique_common>
+            <accessor source="#GeometrySource2-array" count="93" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeometrySource3" name="Root__mt_facelineClr">
+          <float_array id="GeometrySource3-array" count="372">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#GeometrySource3-array" count="93" stride="4">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+              <param name="A" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Geometry-vertices">
+          <input semantic="POSITION" source="#GeometrySource"/>
+          <input semantic="NORMAL" source="#GeometrySource1"/>
+          <input semantic="TEXCOORD" source="#GeometrySource2"/>
+          <input semantic="COLOR" source="#GeometrySource3"/>
+        </vertices>
+        <triangles material="VisualMaterial0" count="80">
+          <input semantic="VERTEX" source="#Geometry-vertices" offset="0"/>
+          <p>0 1 2 0 2 3 2 4 3 2 5 4 2 6 5 5 7 4 5 8 7 5 6 9 7 10 4 7 11 10 7 8 12 10 13 4 10 14 13 10 11 15 13 16 4 13 17 16 13 14 18 19 3 4 16 19 4 16 20 19 16 17 21 19 20 22 19 23 3 3 23 24 25 26 27 26 28 29 26 29 27 28 30 29 28 31 30 28 32 31 28 33 32 28 34 33 31 35 30 30 35 36 30 36 37 30 37 38 32 33 39 33 34 40 34 41 40 35 42 36 36 42 43 36 43 44 36 44 45 37 46 38 38 46 47 40 41 48 42 49 43 43 49 50 43 50 51 43 51 52 44 53 45 45 53 54 49 55 50 50 55 56 50 56 57 50 57 58 51 59 52 52 59 60 55 61 56 56 61 62 56 62 63 56 63 64 57 65 58 58 65 66 61 67 62 62 67 68 62 68 69 62 69 70 63 71 64 64 71 72 69 73 70 70 73 74 75 76 77 78 79 80 81 82 83 82 84 83 85 86 87 86 88 87 89 90 91 90 92 91</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Geometry1" name="Root__mt_hair">
+      <mesh>
+        <source id="GeometrySource4" name="Root__mt_hairPos">
+          <float_array id="GeometrySource4-array" count="198">2.4375 0.577148 -5.58203 1.60059 0.20752 -6.47266 0.961426 1.98535 -5.58203 1.08203 2.29688 -4.37109 2.74219 0.712891 -4.37109 0.631348 1.13184 -6.47266 0.961426 1.98535 -5.58203 -1.21289 2.24219 -4.37109 2.79688 -1.58203 -4.37109 2.48438 -1.46094 -5.58203 2.4375 0.577148 -5.58203 0.631348 1.13184 -6.47266 -1.07715 1.9375 -5.58203 -1.07715 1.9375 -5.58203 -2.79688 0.582031 -4.37109 1.63184 -1.13086 -6.47266 1.60059 0.20752 -6.47266 -0.70752 1.10059 -6.47266 -2.48438 0.461426 -5.58203 -0.70752 1.10059 -6.47266 -2.48438 0.461426 -5.58203 -2.74219 -1.71289 -4.37109 -1.63184 0.13147 -6.47266 -2.4375 -1.57715 -5.58203 -1.63184 0.13147 -6.47266 -2.4375 -1.57715 -5.58203 -1.08203 -3.29688 -4.37109 -1.60059 -1.20703 -6.47266 -0.961426 -2.98438 -5.58203 -1.60059 -1.20703 -6.47266 -0.961426 -2.98438 -5.58203 1.21289 -3.24219 -4.37109 -0.631348 -2.13086 -6.47266 1.07715 -2.9375 -5.58203 -0.631348 -2.13086 -6.47266 1.07715 -2.9375 -5.58203 2.79688 -1.58203 -4.37109 0.70752 -2.09961 -6.47266 2.48438 -1.46094 -5.58203 0.70752 -2.09961 -6.47266 1.63184 -1.13086 -6.47266 1.60059 0.20752 -6.47266 0.45752 -0.297607 -6.79688 0.631348 1.13184 -6.47266 0 -0.5 -6.79688 0.18042 -0.033447 -6.79688 0.466309 -0.680176 -6.79688 1.60059 0.20752 -6.47266 0.202148 -0.95752 -6.79688 -0.18042 -0.966309 -6.79688 -0.45752 -0.702148 -6.79688 -0.466309 -0.319336 -6.79688 -0.202148 -0.04245 -6.79688 -0.70752 1.10059 -6.47266 0.631348 1.13184 -6.47266 1.63184 -1.13086 -6.47266 1.63184 -1.13086 -6.47266 0.70752 -2.09961 -6.47266 0.70752 -2.09961 -6.47266 -0.631348 -2.13086 -6.47266 -0.631348 -2.13086 -6.47266 -1.60059 -1.20703 -6.47266 -1.60059 -1.20703 -6.47266 -1.63184 0.13147 -6.47266 -1.63184 0.13147 -6.47266 -0.70752 1.10059 -6.47266</float_array>
+          <technique_common>
+            <accessor source="#GeometrySource4-array" count="66" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeometrySource5" name="Root__mt_hairNrm">
+          <float_array id="GeometrySource5-array" count="198">0.785258 0.34661 -0.513061 0.444632 0.197832 -0.873593 0.309335 0.800747 -0.512948 0.358181 0.923833 -0.135052 0.906008 0.401148 -0.135021 0.17622 0.454256 -0.873269 0.309335 0.800747 -0.512948 -0.401148 0.906008 -0.135021 0.923833 -0.358181 -0.135052 0.800747 -0.309335 -0.512948 0.785258 0.34661 -0.513061 0.17622 0.454256 -0.873269 -0.34661 0.785258 -0.513061 -0.34661 0.785258 -0.513061 -0.923833 0.358181 -0.135052 0.454256 -0.17622 -0.873269 0.444632 0.197832 -0.873593 -0.197832 0.444632 -0.873593 -0.800747 0.309335 -0.512948 -0.197832 0.444632 -0.873593 -0.800747 0.309335 -0.512948 -0.906008 -0.401148 -0.135021 -0.454256 0.17622 -0.873269 -0.785258 -0.34661 -0.513061 -0.454256 0.17622 -0.873269 -0.785258 -0.34661 -0.513061 -0.358181 -0.923833 -0.135052 -0.444632 -0.197832 -0.873593 -0.309335 -0.800747 -0.512948 -0.444632 -0.197832 -0.873593 -0.309335 -0.800747 -0.512948 0.401148 -0.906008 -0.135021 -0.17622 -0.454256 -0.873269 0.34661 -0.785258 -0.513061 -0.17622 -0.454256 -0.873269 0.34661 -0.785258 -0.513061 0.923833 -0.358181 -0.135052 0.197832 -0.444632 -0.873593 0.800747 -0.309335 -0.512948 0.197832 -0.444632 -0.873593 0.454256 -0.17622 -0.873269 0.444632 0.197832 -0.873593 0.115441 0.050872 -0.992011 0.17622 0.454256 -0.873269 0 0 -1 0.045004 0.117404 -0.992064 0.117404 -0.045004 -0.992064 0.444632 0.197832 -0.873593 0.050872 -0.115441 -0.992011 -0.045004 -0.117404 -0.992064 -0.115441 -0.050872 -0.992011 -0.117404 0.045004 -0.992064 -0.050872 0.115441 -0.992011 -0.197832 0.444632 -0.873593 0.17622 0.454256 -0.873269 0.454256 -0.17622 -0.873269 0.454256 -0.17622 -0.873269 0.197832 -0.444632 -0.873593 0.197832 -0.444632 -0.873593 -0.17622 -0.454256 -0.873269 -0.17622 -0.454256 -0.873269 -0.444632 -0.197832 -0.873593 -0.444632 -0.197832 -0.873593 -0.454256 0.17622 -0.873269 -0.454256 0.17622 -0.873269 -0.197832 0.444632 -0.873593</float_array>
+          <technique_common>
+            <accessor source="#GeometrySource5-array" count="66" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeometrySource6" name="Root__mt_hairUV">
+          <float_array id="GeometrySource6-array" count="132">0.592874 0.363592 0.588602 0.311559 0.564248 0.367742 0.562493 0.445808 0.593744 0.445808 0.574182 0.311559 0.561624 0.363592 0.531243 0.445808 0.624994 0.445808 0.624125 0.363592 0.595499 0.367742 0.557351 0.311559 0.532998 0.367742 0.530373 0.363592 0.500008 0.445808 0.619852 0.311559 0.605432 0.311559 0.542931 0.311559 0.501747 0.367742 0.526101 0.311559 0.499123 0.363592 0.468757 0.445808 0.511681 0.311559 0.470497 0.367742 0.49485 0.311559 0.467872 0.363592 0.437507 0.445808 0.48043 0.311559 0.439246 0.367742 0.4636 0.311559 0.436622 0.363592 0.406256 0.445808 0.44918 0.311559 0.407996 0.367742 0.432349 0.311559 0.405371 0.363592 0.375006 0.445808 0.417929 0.311559 0.376745 0.367742 0.401099 0.311559 0.386679 0.311559 0.599847 0.160235 0.526055 0.161456 0.572976 0.226444 0.500008 0.162493 0.518425 0.179889 0.518425 0.143038 0.59968 0.154925 0.500008 0.135409 0.481575 0.143038 0.473945 0.161456 0.481575 0.179889 0.500008 0.187518 0.503532 0.258137 0.569345 0.23032 0.571847 0.089128 0.569345 0.086625 0.501762 0.05864 0.496468 0.058777 0.430655 0.086625 0.427024 0.09047 0.400153 0.15671 0.40032 0.16199 0.428153 0.227832 0.432013 0.231434 0.498238 0.25832</float_array>
+          <technique_common>
+            <accessor source="#GeometrySource6-array" count="66" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeometrySource7" name="Root__mt_hairClr">
+          <float_array id="GeometrySource7-array" count="264">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#GeometrySource7-array" count="66" stride="4">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+              <param name="A" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Geometry1-vertices">
+          <input semantic="POSITION" source="#GeometrySource4"/>
+          <input semantic="NORMAL" source="#GeometrySource5"/>
+          <input semantic="TEXCOORD" source="#GeometrySource6"/>
+          <input semantic="COLOR" source="#GeometrySource7"/>
+        </vertices>
+        <triangles material="VisualMaterial10" count="56">
+          <input semantic="VERTEX" source="#Geometry1-vertices" offset="0"/>
+          <p>0 1 2 0 2 3 0 3 4 1 5 2 3 6 7 4 8 9 4 9 10 6 11 12 6 12 7 7 13 14 9 15 10 10 15 16 11 17 12 13 18 14 13 19 18 14 20 21 19 22 18 20 23 21 20 24 23 21 25 26 24 27 23 25 28 26 25 29 28 26 30 31 29 32 28 30 33 31 30 34 33 31 35 36 34 37 33 35 38 36 35 39 38 39 40 38 41 42 43 42 44 45 42 45 43 42 46 44 42 47 46 44 46 48 44 48 49 44 49 50 44 50 51 44 51 52 44 52 45 45 52 53 45 53 54 46 47 55 46 56 48 48 56 57 48 58 49 49 58 59 49 60 50 50 60 61 50 62 51 51 62 63 51 64 52 52 64 65</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Geometry2" name="Root__mt_mask">
+      <mesh>
+        <source id="GeometrySource8" name="Root__mt_maskPos">
+          <float_array id="GeometrySource8-array" count="12">-0.5 0.5 -3.5 0.5 0.5 -3.5 -0.5 -0.5 -3.5 0.5 -0.5 -3.5</float_array>
+          <technique_common>
+            <accessor source="#GeometrySource8-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeometrySource9" name="Root__mt_maskNrm">
+          <float_array id="GeometrySource9-array" count="12">0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#GeometrySource9-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeometrySource10" name="Root__mt_maskUV">
+          <float_array id="GeometrySource10-array" count="8">0 1 1 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#GeometrySource10-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeometrySource11" name="Root__mt_maskClr">
+          <float_array id="GeometrySource11-array" count="16">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#GeometrySource11-array" count="4" stride="4">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+              <param name="A" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Geometry2-vertices">
+          <input semantic="POSITION" source="#GeometrySource8"/>
+          <input semantic="NORMAL" source="#GeometrySource9"/>
+          <input semantic="TEXCOORD" source="#GeometrySource10"/>
+          <input semantic="COLOR" source="#GeometrySource11"/>
+        </vertices>
+        <triangles material="VisualMaterial20" count="2">
+          <input semantic="VERTEX" source="#Geometry2-vertices" offset="0"/>
+          <p>0 1 2 1 3 2</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Controller">
+      <skin source="#Geometry">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Controller-joints">
+          <Name_array id="Controller-joints-array" count="7">Root set_beard set_front set_hair set_nose set_side set_top</Name_array>
+          <technique_common>
+            <accessor source="#Controller-joints-array" count="7" stride="1">
+              <param name="JOINT" type="Name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Controller-bind_poses">
+          <float_array id="Controller-bind_poses-array" count="112">1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0.34202 -0.939693 -6.77588 0 0.939693 0.34202 1.0302 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 -2.45 0 1 0 -2.6 0 0 0 1 0.707107 0 -0.707107 -2.72357 -0.707107 0 -0.707107 -5.70246 0 1 0 -0.018999 0 0 0 1 1 0 0 0 0 -0.422618 -0.906308 -6.70005 0 0.906308 -0.422618 -1.46758 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Controller-bind_poses-array" count="7" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Controller-weights">
+          <float_array id="Controller-weights-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Controller-weights-array" count="1" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Controller-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Controller-bind_poses"/>
+        </joints>
+        <vertex_weights count="93">
+          <input semantic="JOINT" source="#Controller-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Controller-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</v>
+        </vertex_weights>
+      </skin>
+      <extra>
+        <technique profile="FCOLLADA">
+          <user_properties>SkinController</user_properties>
+        </technique>
+      </extra>
+    </controller>
+    <controller id="Controller1">
+      <skin source="#Geometry1">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Controller1-joints">
+          <Name_array id="Controller1-joints-array" count="7">Root set_beard set_front set_hair set_nose set_side set_top</Name_array>
+          <technique_common>
+            <accessor source="#Controller1-joints-array" count="7" stride="1">
+              <param name="JOINT" type="Name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Controller1-bind_poses">
+          <float_array id="Controller1-bind_poses-array" count="112">1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0.34202 -0.939693 -6.77588 0 0.939693 0.34202 1.0302 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 -2.45 0 1 0 -2.6 0 0 0 1 0.707107 0 -0.707107 -2.72357 -0.707107 0 -0.707107 -5.70246 0 1 0 -0.018999 0 0 0 1 1 0 0 0 0 -0.422618 -0.906308 -6.70005 0 0.906308 -0.422618 -1.46758 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Controller1-bind_poses-array" count="7" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Controller1-weights">
+          <float_array id="Controller1-weights-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Controller1-weights-array" count="1" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Controller1-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Controller1-bind_poses"/>
+        </joints>
+        <vertex_weights count="66">
+          <input semantic="JOINT" source="#Controller1-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Controller1-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</v>
+        </vertex_weights>
+      </skin>
+      <extra>
+        <technique profile="FCOLLADA">
+          <user_properties>SkinController</user_properties>
+        </technique>
+      </extra>
+    </controller>
+    <controller id="Controller2">
+      <skin source="#Geometry2">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Controller2-joints">
+          <Name_array id="Controller2-joints-array" count="7">Root set_beard set_front set_hair set_nose set_side set_top</Name_array>
+          <technique_common>
+            <accessor source="#Controller2-joints-array" count="7" stride="1">
+              <param name="JOINT" type="Name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Controller2-bind_poses">
+          <float_array id="Controller2-bind_poses-array" count="112">1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0.34202 -0.939693 -6.77588 0 0.939693 0.34202 1.0302 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 -2.45 0 1 0 -2.6 0 0 0 1 0.707107 0 -0.707107 -2.72357 -0.707107 0 -0.707107 -5.70246 0 1 0 -0.018999 0 0 0 1 1 0 0 0 0 -0.422618 -0.906308 -6.70005 0 0.906308 -0.422618 -1.46758 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Controller2-bind_poses-array" count="7" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Controller2-weights">
+          <float_array id="Controller2-weights-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Controller2-weights-array" count="1" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Controller2-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Controller2-bind_poses"/>
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Controller2-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Controller2-weights" offset="1"/>
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0</v>
+        </vertex_weights>
+      </skin>
+      <extra>
+        <technique profile="FCOLLADA">
+          <user_properties>SkinController</user_properties>
+        </technique>
+      </extra>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="rdmscene">
+      <node id="VisualSceneNode1" name="Root" sid="Root" type="JOINT">
+        <matrix>1 0 0 0 0 0 1 0 0 -1 0 0 0 0 0 1</matrix>
+        <node id="VisualSceneNode2" name="set_beard" sid="set_beard" type="JOINT">
+          <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="VisualSceneNode3" name="set_front" sid="set_front" type="JOINT">
+          <matrix>1 0 0 0 0 0.939693 -0.34202 6.71959 0 0.34202 0.939693 1.34942 0 0 0 1</matrix>
+        </node>
+        <node id="VisualSceneNode4" name="set_hair" sid="set_hair" type="JOINT">
+          <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="VisualSceneNode5" name="set_nose" sid="set_nose" type="JOINT">
+          <matrix>1 0 0 0 0 1 0 2.45 0 0 1 2.6 0 0 0 1</matrix>
+        </node>
+        <node id="VisualSceneNode6" name="set_side" sid="set_side" type="JOINT">
+          <matrix>0.707107 -0.707107 0 -2.10639 0.707107 0.707107 0 5.9581 0 0 1 0.018999 0 0 0 1</matrix>
+        </node>
+        <node id="VisualSceneNode7" name="set_top" sid="set_top" type="JOINT">
+          <matrix>1 0 0 0 0 0.906308 0.422618 6.69253 0 -0.422618 0.906308 -1.50148 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="VisualSceneNode8" name="Root__mt_faceline" type="NODE">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_controller url="#Controller">
+          <skeleton>#VisualSceneNode1</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="VisualMaterial0" target="#VisualMaterial"/>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="VisualSceneNode9" name="Root__mt_hair" type="NODE">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_controller url="#Controller1">
+          <skeleton>#VisualSceneNode1</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="VisualMaterial10" target="#VisualMaterial1"/>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="VisualSceneNode10" name="Root__mt_mask" type="NODE">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_controller url="#Controller2">
+          <skeleton>#VisualSceneNode1</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="VisualMaterial20" target="#VisualMaterial2"/>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

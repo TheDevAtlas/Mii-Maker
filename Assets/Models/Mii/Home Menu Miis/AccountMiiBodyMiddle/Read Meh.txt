@@ -1,0 +1,12 @@
+MiiFace is most likely just a prototype/debug head model
+
+Body.png is for the pants.
+Body_Alpha.png is for the shirt.
+
+For those unfamiliar with masking textures
+
+Blender Users:
+
+Go to the texture tab under "Influence" click the box next to "RGB to Intensity" then click the color box below it to change the colors
+
+Mii Maker Mii's are slightly different poly wise and instead of textures it uses materials.
