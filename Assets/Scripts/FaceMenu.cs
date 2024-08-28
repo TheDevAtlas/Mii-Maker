@@ -8,6 +8,8 @@ public class FaceMenu : MonoBehaviour
 
     public GameObject selector;
 
+    public Changer changer;
+
     private void Start()
     {
         SwitchPart(0);
@@ -25,5 +27,7 @@ public class FaceMenu : MonoBehaviour
         selector.GetComponent<RectTransform>().anchoredPosition = buttons[buttonIndex].GetComponent<RectTransform>().anchoredPosition + new Vector2(390.8f - 228.7351f, -239.9998f + 98.35001f);
 
         //buttons[buttonIndex].SetActive(true);
+
+        changer.Change(targetIndex);
     }
 }

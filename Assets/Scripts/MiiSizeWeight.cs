@@ -61,7 +61,7 @@ public class MiiSizeWeight : MonoBehaviour
             for (int j = 0; j < vertices.Length; j++)
             {
                 // Calculate the scaling based on the weight, with 0.5f being the original size
-                float scale = Mathf.Lerp(0.5f, 1.5f, weight);
+                float scale = Mathf.Lerp(0.8f, 1.3f, weight);
                 vertices[j] = originalVertices[i][j] * scale;
             }
 
