@@ -6,8 +6,6 @@ public class RotateMii : MonoBehaviour
     public float mouseRotationSpeed = 1000f;
     public float returnSpeed = 50f;    // Speed at which the model returns to default rotation
     public float returnDelay = 5f;     // Time before the model starts returning to default rotation
-
-    private bool isRotating = false;   // Flag to check if the player is rotating
     private float lastInputTime = 0f;  // Time of the last user input
 
     void Update()
@@ -46,14 +44,12 @@ public class RotateMii : MonoBehaviour
 
         if (inputReceived)
         {
-            isRotating = true;
             lastInputTime = Time.time;
         }
         else
         {
             if (Time.time - lastInputTime > returnDelay)
             {
-                isRotating = false;
                 RotateBackToDefault();
             }
         }
