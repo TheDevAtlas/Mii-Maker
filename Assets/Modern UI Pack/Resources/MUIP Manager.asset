@@ -64,8 +64,8 @@ MonoBehaviour:
   sliderLabelColor: {r: 1, g: 1, b: 1, a: 1}
   sliderPopupLabelColor: {r: 0.37254903, g: 0.40784314, b: 0.4509804, a: 1}
   sliderHandleColor: {r: 1, g: 1, b: 1, a: 1}
-  switchBorderColor: {r: 0.1764706, g: 0.25490198, b: 0.33333334, a: 1}
-  switchBackgroundColor: {r: 0.05882353, g: 0.5882353, b: 0.99215686, a: 1}
+  switchBorderColor: {r: 0.74509805, g: 0.098039225, b: 0.14509805, a: 1}
+  switchBackgroundColor: {r: 0.9176471, g: 0.5137255, b: 0.52156866, a: 1}
   switchHandleOnColor: {r: 1, g: 1, b: 1, a: 1}
   switchHandleOffColor: {r: 1, g: 1, b: 1, a: 1}
   toggleFont: {fileID: 11400000, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}

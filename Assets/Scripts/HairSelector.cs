@@ -30,6 +30,6 @@ public class HairSelector : MonoBehaviour
 
         //buttons[buttonIndex].SetActive(true);
 
-        //changer.Change(targetIndex);
+        changer.Change(targetIndex);
     }
 }
