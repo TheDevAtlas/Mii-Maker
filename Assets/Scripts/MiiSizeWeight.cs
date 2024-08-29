@@ -68,7 +68,7 @@ public class MiiSizeWeight : MonoBehaviour
             // Update the mesh with the new vertex positions
             mesh.vertices = vertices;
             mesh.RecalculateBounds();
-            mesh.RecalculateNormals();
+            //mesh.RecalculateNormals();
 
             // Assign the modified mesh back to the SkinnedMeshRenderer
             meshes[i].sharedMesh = mesh;
