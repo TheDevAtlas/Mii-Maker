@@ -81,6 +81,7 @@ def get_svgs_from_website(url, output_folder):
     print('SVG extraction complete.')
 
 # Usage example:
-url = 'file:///C:/Users/jacob/OneDrive/Desktop/head3.html'  # Replace with the target website URL
+# "C:\Users\jacob\Desktop\hair.html"
+url = 'file:///C:/Users/jacob/Desktop/hair.html'  # Replace with the target website URL
 output_folder = 'svgs'  # Folder to save SVG files
 get_svgs_from_website(url, output_folder)
